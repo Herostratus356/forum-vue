@@ -1,5 +1,33 @@
-# Vue 3 + Vite
+# Vue 3 Forum — Форумная система
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+[![Vue 3](https://img.shields.io/badge/Vue-3.3-%2342b883)](https://vuejs.org/)
+[![Pinia](https://img.shields.io/badge/Pinia-2.0-%23ffd859)](https://pinia.vuejs.org/)
+[![License](https://img.shields.io/badge/License-MIT-%23007ec6)](LICENSE)
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Полнофункциональный форум с созданием тем, комментариями и рейтинговой системой, разработанный на современном стеке Vue 3.
+
+![Скриншот интерфейса](screenshots/preview.png)
+
+## Ключевые особенности
+
+* **Rich-text редактор**  
+  Форматирование текста, загрузка изображений, выбор шрифтов
+* **Категории тем**  
+  Фильтрация по разделам: "Общее", "Технологии", "Разное"
+* **Комментарии**  
+  Система обсуждений под каждой темой
+* **Система рейтинга**  
+  Лайки/дизлайки для тем и комментариев
+* **Темная/светлая тема**  
+  Поддержка разных цветовых схем
+
+## Технологический стек
+
+* **Vue 3** - компоненты и реактивность
+* **Pinia** - хранение состояния
+* **Selection/Range API** - работа с текстом
+* **LocalStorage** - сохранение данных
+
+## Быстрый старт
+
+1. Клонируйте репозиторий:
